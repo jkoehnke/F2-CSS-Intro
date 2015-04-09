@@ -1,0 +1,51 @@
+body {
+  font-family: 'Droid Serif';
+  color: #444444;
+  max-width: 900px;
+  padding: 0 20px;
+}
+
+header {
+  display: block;
+  max-width: 900px;
+  margin: 34px 0 auto;
+}
+
+p {
+  text-indent: 25px;
+  font-size: 19px;
+  margin: 0 0 20px 0;
+  color: #444444;
+}
+
+footer {
+
+}
+
+.logo {
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+.social-icons {
+  display: inline;
+  float: right;
+  margin: 0 auto;
+  padding-top: 12px;
+}
+
+.social-icons li {
+  display: inline-block;
+  list-style: none;
+  float: left;
+  margin-left: 2px;
+}
+
+.social-icons li:nth-child(7) {
+  margin-left: 10px;
+}
+
+.print {
+  float: right;
+  color: gray;
+}
