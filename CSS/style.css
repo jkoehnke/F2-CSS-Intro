@@ -63,12 +63,12 @@ table {
 }
 
 body {
-  font-family: 'Droid Serif';
   color: #444444;
 }
 
 p {
   text-indent: 2.0em;
+  font-family: ;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -76,12 +76,18 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
-footer {
+a {
+  text-decoration: none;
+}
 
+a:visited {
+  text-decoration: none;
+  color: inherit;
 }
 
 .masthead {
   background: url(border.png) repeat-x bottom;
+  padding: 30px 0;
   padding-bottom: 40px;
   width: 960px;
 }
@@ -90,11 +96,6 @@ footer {
   display: block;
   float: left;
   margin-right: 7px;
-}
-
-.logo-text {
-  display: block;
-  float: left;
 }
 
 .social-icons {
@@ -115,8 +116,40 @@ footer {
   margin-left: 10px;
 }
 
-.print {
+.delicious {
+  font-family: 'Yellowtail', cursive;;
+  font-size: 38px;
+  display: block;
+  float: left;
+}
+
+.best {
+  font-family: 'Abel', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  float: left;
+}
+
+.title {
+  font-family: 'Oswald', sans-serif;
+  font-style: bold;
+  font-size: 38px;
+  padding-top: 30px;
+}
+
+.subtitle {
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.print-text {
   text-align: right;
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  float: right;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .blog-photo {
@@ -133,11 +166,19 @@ footer {
   background-image: 'file:///Users/jkoehnke/Downloads/challenge/list-bg.png';
 }
 
+.author-photo {
+  float: left;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+}
+
 .author {
+  background: url(border.png) repeat-x top;
   display: block;
   float: left;
   margin-right: 7px;
-  background: url(border.png) repeat-x top;
   padding-top: 40px;
   width: 960px;
 }
@@ -145,9 +186,36 @@ footer {
 .author-text {
   display: block;
   float: left;
+  font-size:
 }
 
-#share-recipe {
+.share-recipe {
   display: inline;
+  width: 30%;
+  height: 55px;
   float: right;
+  background-color: #bb7056;
+  font-family: 'Abel';
+  font-size: 1.25rem;
+  color: white;
+  line-height: 3.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.footer {
+  clear: both;
+  border-top: 1px solid #eee;
+  text-align: center;
+  padding: 35px 0 60px 0;
+  font-size: 0.85rem;
+  line-height: 1.4rem;
+  color: #bbb;
+}
+
+.small-logo {
+  margin-top: 18px;
+  padding: 0 5px 0 5px;
+  border-top: 1px solid gray;
 }
